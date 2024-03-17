@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.cbn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.5em;
+    color: black;
+    text-align: left;
+}
+.cbn:hover{
+    color: blue;
+}
+.selected {
+    color: blue;
+}
+.contenedor-principal {
+    height: 100vh;
+}
+
+.contenedor-secundario {
+    padding: 0.7em;
+}
+
+.encabezado{
+    margin: 0;
+    text-align: left;
+    background-color: rgb(248, 248, 248);
+}
+.pie{
+    margin: 0;
+    text-align: left;
+    background-color: rgb(248, 248, 248);
+}
+.encabezado p {
+    padding: 0.5em;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.pie p {
+    padding: 1em;
+    margin: 0;
+    color: rgb(103, 103, 103);
+}
+
+.prueba{
+    padding: 0;
+}
+
+.encabezado-2{
+    margin: 0;
+    width: 100%
+
+}
+.img-form {
+    width: 60%;
+    
+}
+.bg-nombre{
+    width: 100%;
+    height: 10%;
+    margin-top: -2%;
+    margin-left: -1%;
+
+}
+
+.combo {
+    margin-right: 3rem;
+    margin-bottom: 1em;
+    border: 0;
+}
+
+.espacio{
+    margin-top: 3em;
+}
+.text-font{
+    padding: 0;
+}
+.CheckBox{
+    padding: 500px;
+}
+
+.form-check-label{
+    width: 23%;
+    text-align: left;
+
+}
+@media (max-width: 767px) {
+    .form-check-label{
+        max-width: 36%;
+    
+    }
+}
+
+.separacion{
+    padding-right: 80px;
+}
+
+
+input[type="text"] {
+    width: 50%; 
+}
+
+input[type="email"] {
+    width: 100%; 
+    max-width: 50%; 
+}
+
+
+.text{
+    width: auto;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .d-md-block {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .contenedor-principal {
+        height: 60vh;
+    }
+    
+    .bg-nombre{
+        padding-bottom: 3em;
+        margin: 0;
+    
+    }
+    .combo{
+        margin: 0;
+        margin-bottom: -8%;
+        margin-right: 10%;
+
+    }
+    .checkm{
+        margin-right: 40%;
+    }
+}
+
+@media (max-width: 767px) {
+    .img-form {
+        width: 70%;
+        
+    }
+    .img-container{
+        width: 40%;
+    }
+    .bg-nombre{
+        width: 104%;
+        height: 10%;
+        margin-top: -4%;
+        margin-left: -2%;
+        
+    
+    }
+    .contenedor-principal{
+        border: 0;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .img-form {
+        width: 70%;
+        
+    }
+    .img-container{
+        width: 100%;
+    }
+
+    .bg-nombre{
+        width: 100%;
+        height: 10%;
+        margin-top: -4%;
+        margin-left: -2%;
+    
+    }
+}
